@@ -1,0 +1,25 @@
+{
+  "name": "grpc-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node greet/server/index.js",
+    "client": "node greet/client/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.6.9",
+    "google-protobuf": "^3.21.0",
+    "mongodb": "^4.8.1"
+  },
+  "devDependencies": {
+    "grpc-tools": "^1.11.2",
+    "eslint": "^8.16.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0"
+  }
+}
